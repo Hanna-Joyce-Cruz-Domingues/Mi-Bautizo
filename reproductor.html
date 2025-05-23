@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/rp-style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="https://kit.fontawesome.com/3d1902e30b.js" crossorigin="anonymous"></script>
+    <script src="./js/rp-main.js"></script>
+    <title>Joyce Hanna Cruz Dominguez</title>
+</head>
+
+<body class="clemente-bojorquez">
+    <section class="tracker-player">
+        <div class="player">
+            <div class="player-track">
+                <p class="name-song">
+                    Por primera vez
+                </p>
+                <p class="artist">
+                    Camilo
+                </p>
+                <span class="progress-time">00:00</span>
+                    <span class="total-time">00:00</span>
+                <div class="progress-container">
+                    <div id="progress" class="progress"></div>
+                </div>
+                <audio id="audio" src="./music/song.mp3"></audio>
+            </div>
+            <div class="player-content">
+                <div class="album-art">
+                    <!-- <img src="./img/carousel1.jpg" alt=""> -->
+                    <div class="buffer-box">
+                        Cargando...
+                    </div>
+                </div>
+                <div class="player-controls">
+                    <div class="control">
+                        <div class="button" id="backward-button">
+                            <i class="fa-solid fa-backward"></i>
+                        </div>
+                    </div>
+                    <div class="control">
+                        <div class="button" id="play-paused-button">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="control">
+                        <div class="button" id="forward-button">
+                            <i class="fa-solid fa-forward"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
